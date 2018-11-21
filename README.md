@@ -17,7 +17,7 @@ cd /var/www/html
 composer update
 ```
 
-### We can run the code througj browser or inside the docker container
+### We can run the code through browser or inside the docker container
 
 ```bash
 # navigate to /var/www/html
@@ -59,4 +59,13 @@ Player 2 score   Array
 ### Or just simply run in browser
 ```
 localhost/play.php
+```
+
+
+### to run test cases using unit tests
+```bash
+# navigate /var/www/html
+vendor/phpunit/phpunit/phpunit unit_tests/TestFrame.php
+
+vendor/phpunit/phpunit/phpunit unit_tests/TestGame.php
 ```
