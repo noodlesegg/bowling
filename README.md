@@ -24,7 +24,7 @@ composer update
 cd /var/www/html 
 
 # execute the code 
-php src/play.php
+php play.php
 ```
 
 ```
@@ -62,7 +62,7 @@ localhost/play.php
 ```
 
 
-### to run test cases using unit tests
+### to run test cases using phpunit
 ```bash
 # navigate /var/www/html
 vendor/phpunit/phpunit/phpunit unit_tests/TestFrame.php
