@@ -1,7 +1,7 @@
 <?php
 namespace Org\Bowling;
 require_once 'vendor/autoload.php';
-
+echo "<pre>";
 $player1 = new Game(
     [
         new Frame(5,2),
@@ -16,6 +16,7 @@ $player1 = new Game(
         new Frame(10,2,6),
     ]
 );
+
 echo "Player 1 score   ";
 print_r($player1->getScores());
 

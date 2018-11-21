@@ -17,7 +17,7 @@ cd /var/www/html
 composer update
 ```
 
-### We can run the code throug browser or inside the docker container
+### We can run the code througj browser or inside the docker container
 
 ```bash
 # navigate to /var/www/html
@@ -55,4 +55,8 @@ Player 2 score   Array
     [8] => 101
     [9] => 118
 )
+```
+### Or just simply run in browser
+```
+localhost/play.php
 ```
